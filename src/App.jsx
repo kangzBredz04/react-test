@@ -1,5 +1,11 @@
+import MyButton from "./component/NewButton";
 function App() {
-  return <h1>Hello Wabredz</h1>;
+  return (
+    <div>
+      <h1>Hello Wabredz</h1>
+      <MyButton />
+    </div>
+  );
 }
 
 export default App;
